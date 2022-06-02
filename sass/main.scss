@@ -1,0 +1,19 @@
+@import 'header';
+@import 'vars';
+
+section{
+    background: $colorPrincipal;
+    h2 {
+        color: black;
+        font-size: x-large;
+    }
+    div{
+        width: 300px;
+        height: 200px;
+        border: $bordeNegro;
+        p{
+            background: blue;
+            color: $colorSection;
+        }
+    }
+}
